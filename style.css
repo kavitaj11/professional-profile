@@ -145,6 +145,15 @@ h2 {
   margin-block-end: 5px;
 }
 
+.skill-category {
+  font-size: 26px;
+  color: #4caf50;
+  margin: 40px 60px 10px;
+  text-align: left;
+  font-weight: bold;
+}
+
+
 .flex_center {
   display: flex;
   align-items: center;
