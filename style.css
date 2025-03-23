@@ -75,7 +75,11 @@ h2 {
 
 .container {
   display: flex;
+  align-items: center; /* centers image vertically with text */
+  gap: 20px; /* space between image and text */
+  flex-wrap: wrap; /* helps responsiveness on smaller screens */
 }
+
 
 /* About Me */
 
@@ -97,10 +101,12 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
-  height: fit-content;
+  width: 250px; /* 🔽 Reduced from 550px */
+  height: auto;
   vertical-align: middle;
-  margin: 5px;
+  margin: 10px;
+  border-radius: 12px; /* Optional: gives it a softer, modern look */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: light shadow */
 }
 
 /* Skills */
